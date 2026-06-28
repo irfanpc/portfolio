@@ -1,0 +1,122 @@
+E D U C A T I O N
+irfanpc57@gmail.com
+P R O J E C T S
+HYDERABAD, INDIA
+T E C H N I C A L
+S K I L L S
+Programming Languages
+Python
+JavaScript
+SQL
+Python Libraries
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Plotly
+Scikit-learn
+Statsmodels
+AI & Machine Learning
+Machine Learning
+Deep Learning
+Natural Language Processing (NLP)
+Retrieval-Augmented Generation
+(RAG)
+AI Chat Assistant
+Tech Stack: Python, FastAPI, React, OpenAI API, LangChain
+Computer Science student with hands-on experience in AI, machine learning,
+and full-stack development. Built AI-powered applications using Python,
+FastAPI, React, and Next.js, and currently working as an AI Intern. Eager to
+learn, solve real-world problems, and contribute as an AI/ML Software
+Engineer.
+Bachelor of Technology (B.Tech) –
+Computer Science Engineering
+Jawaharlal Nehru Technological
+University Hyderabad (JNTUH)
+2019 – 2023
+Built an AI-powered chatbot capable of understanding natural
+language and generating intelligent responses.
+Integrated Large Language Models (LLMs) using OpenAI API and
+LangChain.
+Developed REST APIs with FastAPI and a responsive React frontend.
+Implemented conversation history and real-time chat experience.
+MOHD I R F AN
+A I / M L E N G I N E E R
+C O N T A C T
++91 9381549619
+P R O F I L E
+Ask My Docs (RAG Application)
+Tech Stack: Python, FastAPI, LangChain, Vector Database, React
+Developed a Retrieval-Augmented Generation (RAG) application for
+querying uploaded PDF documents.
+Implemented document parsing, chunking, embeddings, semantic
+search, and context-aware answer generation.
+Built an interactive frontend for document upload and AI-powered
+question answering.
+Optimized retrieval accuracy and response quality using vector
+search.
+Analytics Dashboard
+Tech Stack: React, Next.js, Tailwind CSS, Charts
+Developed an interactive analytics dashboard with real-time data
+visualization.
+Built reusable dashboard components and responsive layouts.
+Implemented charts, tables, and KPI cards for business insights.
+Optimized application performance and user experience.
+Portfolio Website
+Tech Stack: Next.js, React, Tailwind CSS, AI Chatbot
+Built a responsive portfolio website showcasing my projects and skills.
+Integrated an AI-powered chatbot to answer visitor queries and
+provide project information.
+Optimized for performance, responsiveness, and user experience.
+   LinkedIn: mohd-irfan75
+   GitHub: github.com/irfanpc
+
+AI Intern | Yuva Intelli AL Solution (Current)
+Integrating AI features into web applications using LLMs and OpenAI
+APIs.
+Developing AI solutions with Python, FastAPI, and LangChain.
+Collaborating with the team to build and deploy AI-powered
+applications.
+Prompt Engineering I N T E R N S H I P
+LangChain
+OpenAI API
+Frontend
+React.js
+Next.js
+HTML
+CSS
+Backend
+FastAPI
+REST APIs
+Databases
+MySQL
+Firebase
+Vector Databases
+Tools
+Git & GitHub
+VS Code
+Jupyter Notebook
+Google Colab
+Vercel
+S O F T S K I L L S
+L A N G U A G E S
+A C H I E V E M E N T S
+Built multiple AI and Full Stack projects.
+Deployed production-ready web applications on Vercel.
+Strong understanding of Machine Learning and Generative AI
+concepts.
+Passionate about solving real-world problems with AI
+C E R T I F I C A T I O N S
+Machine Learning
+Python for Data Science
+SQL Basics
+Deep Learning
+Generative AI
+Problem Solving
+Communication
+Teamwork
+Critical Thinking
+Time Management
+English
+Telugu
+Hindi

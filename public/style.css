@@ -1359,13 +1359,15 @@ footer {
 
 @media (max-width: 600px) {
     .chat-wrapper {
+        position: fixed !important;
+        top: 0 !important;
         right: 0 !important;
         left: 0 !important;
         bottom: 0 !important;
         width: 100% !important;
         max-width: none !important;
-        height: 100dvh !important;
-        max-height: 100dvh !important;
+        height: auto !important;
+        max-height: none !important;
         border-radius: 0 !important;
         z-index: 100000 !important;
     }

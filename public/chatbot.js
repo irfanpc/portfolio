@@ -181,3 +181,50 @@ submitTicketBtn.addEventListener('click', submitTicket);
 
 // Initialize
 loadHistory();
+
+// iOS Safari Mobile Keyboard Fix
+if (window.visualViewport) {
+    const adjustChatWidget = () => {
+        const chatWrapper = document.querySelector('.chat-wrapper');
+        if (!chatWrapper) return;
+        
+        if (window.innerWidth <= 600 && !chatWrapper.classList.contains('hidden')) {
+            // Lock body to prevent Safari from scrolling the fixed container out of view
+            if (document.body.style.position !== 'fixed') {
+                document.body.dataset.scrollY = window.scrollY;
+                document.body.style.position = 'fixed';
+                document.body.style.top = `-${window.scrollY}px`;
+                document.body.style.width = '100%';
+            }
+            
+            // Bind chat height strictly to visual viewport height
+            chatWrapper.style.position = 'fixed';
+            chatWrapper.style.top = '0px';
+            chatWrapper.style.bottom = 'auto';
+            chatWrapper.style.height = window.visualViewport.height + 'px';
+            chatWrapper.style.maxHeight = 'none';
+        } else {
+            // Restore body
+            if (document.body.style.position === 'fixed') {
+                document.body.style.position = '';
+                document.body.style.top = '';
+                document.body.style.width = '';
+                window.scrollTo(0, parseInt(document.body.dataset.scrollY || '0'));
+            }
+            // Restore chat
+            chatWrapper.style.position = '';
+            chatWrapper.style.top = '';
+            chatWrapper.style.bottom = '';
+            chatWrapper.style.height = '';
+            chatWrapper.style.maxHeight = '';
+        }
+    };
+
+    window.visualViewport.addEventListener('resize', adjustChatWidget);
+    window.visualViewport.addEventListener('scroll', adjustChatWidget);
+    
+    const chatToggle = document.getElementById('chatbot-toggle');
+    const closeToggle = document.getElementById('close-chat');
+    if (chatToggle) chatToggle.addEventListener('click', () => setTimeout(adjustChatWidget, 10));
+    if (closeToggle) closeToggle.addEventListener('click', () => setTimeout(adjustChatWidget, 10));
+}
